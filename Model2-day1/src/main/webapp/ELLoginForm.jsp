@@ -8,14 +8,7 @@
 </head>
 <body>
 
-	<center>
-	<h2> 로그인 </h2>
-	
-	<!-- 
-	서블릿 이름을 등록 
-	localhost/Model2-day1/LoginForm.jsp
-	-->
-	<form action="LoginProc.do" method="post">
+	<form action="ELLoginProc.jsp" method="post">
 		
 		<table width="300" border="1">
 		<tr height="40">
@@ -34,8 +27,6 @@
 		</table>
 	
 	</form>
-	
-	</center>
 
 </body>
 </html>
