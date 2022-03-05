@@ -1,0 +1,19 @@
+
+
+1. 서블릿클래스에 어노테이션을 사용해서 직접 매핑하는 방법
+2. web.xml에 매핑하는방법 
+
+두가지가 존재한다.
+
+
+<servlet>
+  <servlet-name>Hello</servlet-name> //servlet 이름 명시
+  <servlet-class>servlet.HelloServlet</servlet-class> //패키지.클래스 이름을 등록 해줌
+</servlet>
+  
+<servlet-mapping>
+  <servlet-name>Hello</servlet-name> //servlet의 name을 매핑
+  <url-pattern>/hello</url-pattern>  / 가 반드시 필요!! (주소 뒤에 값이라서)
+</servlet-mapping>
+
+
