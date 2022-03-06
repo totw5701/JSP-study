@@ -9,7 +9,8 @@
 <body>
 
 <center>
-<form action="MemberJoibProc.jsp" method="post">
+
+<form action="proc.do" method="post">
 <table width="500" border="1" bordercolor="black">
 	<tr height="40">
 		<td width="150" align="center"> 아이디 </td>
@@ -18,12 +19,12 @@
 
 	<tr height="40"> 
 		<td width="150" align="center"> 패스워드 </td>
-		<td width="350" align="center"> <input type="password" name="password" placeholder="pwd"/> </td>
+		<td width="350" align="center"> <input type="password" name="pass1" placeholder="pwd"/> </td>
 	</tr>
 	
 	<tr height="40">
 		<td width="150" align="center"> 패스워드 확인 </td>
-		<td width="350" align="center"> <input type="password" name="password2" placeholder="pwd 확인"/> </td>
+		<td width="350" align="center"> <input type="password" name="pass2" placeholder="pwd 확인"/> </td>
 	</tr>
 	
 	<tr height="40">
@@ -39,13 +40,13 @@
 	<tr height="40">
 		<td width="150" align="center"> 당신의 관심분야 </td>
 		<td width="350" align="center"> 
-			<input type="checkbox" id="camping" name="hobby" > 
+			<input type="checkbox" id="camping" name="hobby" value="camping"> 
 			<label for="camping"> 캠핑 </label>
-			<input type="checkbox" id="hicking" name="hobby" > 
+			<input type="checkbox" id="hicking" name="hobby" value="hicking"> 
 			<label for="hicking"> 등산 </label>
-			<input type="checkbox" id="movie" name="hobby" > 
+			<input type="checkbox" id="movie" name="hobby" value="movie"> 
 			<label for="movie"> 영화 </label>
-			<input type="checkbox" id="book" name="hobby" > 
+			<input type="checkbox" id="book" name="hobby" value="book"> 
 			<label for="book"> 독서 </label>
 		</td>
 	</tr>

@@ -11,6 +11,7 @@ public class MemberBean {
 	private String job;
 	private String age;
 	private String info;
+	
 	public String getId() {
 		return id;
 	}
